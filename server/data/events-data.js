@@ -5,7 +5,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Sports 1 enim ad minim veniam",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "",
     "thumbnail": "/img/b-2.jpeg",
@@ -13,7 +13,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Business 1 ipsum dolor sit",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "business",
     "thumbnail": "/img/b-3.jpeg",
@@ -21,7 +21,7 @@ var events = [{
     "overrideURL": "http://www.google.com",
     "linkType": "external",
     "title": "Business 2 ut enim ad minim veniam",
-    "summary": "Ut enim ad minim veniam",
+    "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "sports",
     "thumbnail": "/img/t-1.jpeg",
@@ -37,7 +37,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Transport 1",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "sports",
     "thumbnail": "/img/t-3.jpeg",
@@ -45,7 +45,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Sports 3",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "business",
     "thumbnail": "/img/t-4.jpeg",
@@ -53,7 +53,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Business 3",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "technics",
     "thumbnail": "/img/t-5.jpeg",
@@ -61,7 +61,7 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Tech 1",
-    "summary": "Ut enim ad minim veniam",
+    "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "transport",
     "thumbnail": "http://lorempixel.com/304/302/transport/",
@@ -69,31 +69,31 @@ var events = [{
     "overrideURL": "",
     "linkType": "",
     "title": "Transport 2",
-    "summary": "Ut enim ad minim veniam",
+    "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "technics",
-    "thumbnail": "http://lorempixel.com/306/306/technics/",
+    "thumbnail": "/img/t-6.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
     "title": "Tech 2",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "fashion",
-    "thumbnail": "http://lorempixel.com/304/304/fashion/",
+    "thumbnail": "/img/f-1.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
     "title": "Fashion 1",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "transport",
-    "thumbnail": "http://lorempixel.com/300/301/transport/",
+    "thumbnail": "/img/f-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
     "title": "Transport 3",
-    "summary": "Lorem ipsum dolor sit amet",
+    "summary": "Lorem ipsum dolor sit amet"
 }];
 
 module.exports = events;
