@@ -32,7 +32,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam",
 }, {
     "topics": "",
-    "thumbnail": "/img/t-2.jpeg",
+    "thumbnail": "/img/tr-3.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -64,7 +64,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "transport",
-    "thumbnail": "/img/t-5.jpeg",
+    "thumbnail": "/img/tr-1.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -88,7 +88,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "transport",
-    "thumbnail": "/img/f-2.jpeg",
+    "thumbnail": "/img/tr-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
