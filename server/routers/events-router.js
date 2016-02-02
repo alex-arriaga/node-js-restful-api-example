@@ -1,6 +1,7 @@
 var eventsRouter = require('express').Router();
+var eventsData = require('../data/events-data');
 
-var events = [];
+var events = eventsData;
 var id = 0;
 
 var updateId = function (req, res, next) {
@@ -22,6 +23,7 @@ eventsRouter.param('id', function (req, res, next, id) {
 });
 
 eventsRouter.get('/', function(req, res){
+    console.log(eventsData);
     res.json(events);
 });
 
