@@ -1,6 +1,6 @@
 var events = [{
     "topics": "sports,business",
-    "thumbnail": "http://lorempixel.com/301/304/sports/",
+    "thumbnail": "/img/b-1.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -8,7 +8,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet",
 }, {
     "topics": "",
-    "thumbnail": "http://lorempixel.com/300/302/business/",
+    "thumbnail": "/img/b-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -16,7 +16,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet",
 }, {
     "topics": "business",
-    "thumbnail": "http://lorempixel.com/301/301/business/",
+    "thumbnail": "/img/b-3.jpeg",
     "url": "index.html",
     "overrideURL": "http://www.google.com",
     "linkType": "external",
@@ -24,7 +24,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam",
 }, {
     "topics": "sports",
-    "thumbnail": "http://lorempixel.com/302/302/sports/",
+    "thumbnail": "/img/t-1.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -32,7 +32,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam",
 }, {
     "topics": "",
-    "thumbnail": "http://lorempixel.com/304/301/transport/",
+    "thumbnail": "/img/t-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -40,7 +40,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet",
 }, {
     "topics": "sports",
-    "thumbnail": "http://lorempixel.com/307/308/sports/",
+    "thumbnail": "/img/t-3.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -48,7 +48,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet",
 }, {
     "topics": "business",
-    "thumbnail": "http://lorempixel.com/305/305/business/",
+    "thumbnail": "/img/t-4.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -56,7 +56,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet",
 }, {
     "topics": "technics",
-    "thumbnail": "http://lorempixel.com/302/304/technics/",
+    "thumbnail": "/img/t-5.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
