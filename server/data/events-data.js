@@ -1,6 +1,6 @@
 var events = [{
-    "topics": "sports,business",
-    "thumbnail": "/img/b-1.jpeg",
+    "topics": "sports",
+    "thumbnail": "/img/s-1.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -16,15 +16,15 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "business",
-    "thumbnail": "/img/b-3.jpeg",
+    "thumbnail": "/img/b-1.jpeg",
     "url": "index.html",
-    "overrideURL": "http://www.google.com",
+    "overrideURL": "http://base22.com",
     "linkType": "external",
     "title": "Business 2 ut enim ad minim veniam",
     "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "sports",
-    "thumbnail": "/img/t-1.jpeg",
+    "thumbnail": "/img/s-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -40,7 +40,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "sports",
-    "thumbnail": "/img/t-3.jpeg",
+    "thumbnail": "/img/s-3.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -48,7 +48,7 @@ var events = [{
     "summary": "Lorem ipsum dolor sit amet"
 }, {
     "topics": "business",
-    "thumbnail": "/img/t-4.jpeg",
+    "thumbnail": "/img/b-4.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
@@ -64,7 +64,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "transport",
-    "thumbnail": "http://lorempixel.com/304/302/transport/",
+    "thumbnail": "/img/t-5.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
