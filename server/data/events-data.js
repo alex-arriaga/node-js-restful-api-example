@@ -72,7 +72,7 @@ var events = [{
     "summary": "Ut enim ad minim veniam"
 }, {
     "topics": "technics",
-    "thumbnail": "/img/t-6.jpeg",
+    "thumbnail": "/img/t-2.jpeg",
     "url": "index.html",
     "overrideURL": "",
     "linkType": "",
