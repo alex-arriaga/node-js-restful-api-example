@@ -41,9 +41,7 @@ eventsRouter.post('/', updateId, function (req, res) {
 });
 
 eventsRouter.put('/:id', function (req, res) {
-    console.log("PUTTTT!");
     var update = req.body;
-    console.log(update);
 
     if (update.id) {
         delete update.id;
@@ -57,6 +55,22 @@ eventsRouter.put('/:id', function (req, res) {
         var updatedEvent = _.assign(events[event], update);
         res.json(updatedEvent);
     }
+});
+
+eventsRouter.delete('/:id', function(req, res) {
+    var event = _.findIndex(events, {id: req.params.id});
+    events.splice(event, 1);
+
+    res.json(req.event);
+});
+
+// Error handler
+eventsRouter.use(function (err, req, res, next) {
+
+    if (err) {
+        res.status(500).send(err);
+    }
+
 });
 
 module.exports = eventsRouter;
