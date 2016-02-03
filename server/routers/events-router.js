@@ -1,5 +1,6 @@
 var eventsRouter = require('express').Router();
 var eventsData = require('../data/events-data');
+var _ = require('lodash');
 
 var events = eventsData;
 var id = 12;
@@ -14,7 +15,6 @@ var updateId = function (req, res, next) {
 };
 
 eventsRouter.param('id', function (req, res, next, id) {
-
     var event = _.find(events, {id: id});
     if (event) {
         req.event = event;
@@ -24,27 +24,26 @@ eventsRouter.param('id', function (req, res, next, id) {
     }
 });
 
-eventsRouter.get('/', function(req, res){
-    console.log(eventsData);
+eventsRouter.get('/', function (req, res) {
     res.json(events);
 });
 
-eventsRouter.get('/:id', function(req, res){
+eventsRouter.get('/:id', function (req, res) {
     var event = req.event;
     res.json(event || {});
 });
 
-eventsRouter.post('/', updateId, function(req, res){
-    console.log("Body!!");
-    console.log(req.body);
+eventsRouter.post('/', updateId, function (req, res) {
     var event = req.body;
-    console.log(event);
+
     events.push(event);
     res.json(event || {});
 });
 
 eventsRouter.put('/:id', function (req, res) {
+    console.log("PUTTTT!");
     var update = req.body;
+    console.log(update);
 
     if (update.id) {
         delete update.id;
