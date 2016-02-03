@@ -20,7 +20,7 @@ eventsRouter.param('id', function (req, res, next, id) {
         req.event = event;
         next();
     } else {
-        res.send();
+        res.json({"error": "Id not found"});
     }
 });
 
@@ -37,7 +37,7 @@ eventsRouter.post('/', updateId, function (req, res) {
     var event = req.body;
 
     events.push(event);
-    res.json(event || {});
+    res.status(201).json(event || {});
 });
 
 eventsRouter.put('/:id', function (req, res) {
@@ -57,7 +57,7 @@ eventsRouter.put('/:id', function (req, res) {
     }
 });
 
-eventsRouter.delete('/:id', function(req, res) {
+eventsRouter.delete('/:id', function (req, res) {
     var event = _.findIndex(events, {id: req.params.id});
     events.splice(event, 1);
 
