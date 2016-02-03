@@ -2,9 +2,10 @@ var eventsRouter = require('express').Router();
 var eventsData = require('../data/events-data');
 
 var events = eventsData;
-var id = 0;
+var id = 12;
 
 var updateId = function (req, res, next) {
+    console.log(req.body);
     if (!req.body.id) {
         id++;
         req.body.id = id + '';
@@ -13,6 +14,7 @@ var updateId = function (req, res, next) {
 };
 
 eventsRouter.param('id', function (req, res, next, id) {
+
     var event = _.find(events, {id: id});
     if (event) {
         req.event = event;
@@ -33,7 +35,10 @@ eventsRouter.get('/:id', function(req, res){
 });
 
 eventsRouter.post('/', updateId, function(req, res){
+    console.log("Body!!");
+    console.log(req.body);
     var event = req.body;
+    console.log(event);
     events.push(event);
     res.json(event || {});
 });
