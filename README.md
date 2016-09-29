@@ -10,9 +10,11 @@ The four CRUD operations are provided: create, read, update and delete records.
 ## POST /events
 
 **Headers**
+
 Content-Type : application/json
 
 **Request body (raw)**
+
 ```
 {
     "topics": "",
@@ -25,12 +27,16 @@ Content-Type : application/json
 }
 ```
 
+
 ## PUT /events/:id
 
 **Headers**
+
 Content-Type : application/json
 
 **Request body (raw)**
+
+```
 {
 	"id": "1",
     "topics": "",
@@ -41,6 +47,8 @@ Content-Type : application/json
     "title": "Updated by Postman",
     "summary": "Lorem ipsum dolor sit amet"
 }
+```
+
 
 ## DELETE /events/:id
 
