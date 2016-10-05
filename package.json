@@ -4,6 +4,7 @@
   "description": "A Nodejs demo for IBM Connect 2016",
   "main": "gulpfile.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,10 +14,12 @@
   "keywords": [
     "nodejs",
     "restful",
-    "api"
+    "api",
+    "expressjs"
   ],
   "author": "Alex Arriaga",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/alex-arriaga/node-js-rest-api/issues"
   },
